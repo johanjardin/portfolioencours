@@ -1,0 +1,123 @@
+#nav1 { 
+    display: flex;
+    justify-content: space-between;
+
+}
+#content-wrapper {
+    display: flex;
+    justify-content: column;
+    background-color: black;
+}
+#div1 { display: flex;
+    justify-content: flex-start;}
+
+#div2 {
+    margin-top: 23px;
+}
+
+#div3 {
+    margin-top: 23px;
+}
+
+#div4 {
+    margin-top: 23px;
+}
+#div5 {
+    border:solid;
+    border-color: red;
+    padding:20px 20px 20px 20px;
+    
+    margin-top: 40px;
+    margin-left:25px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+#div6 {
+    margin-left:80px;
+    margin-top: 170px;
+}
+#div7 {
+    margin-left:20px;
+    margin-top: 170px;;
+}
+
+#tit1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Goldman", cursive;
+}
+#tit2 {
+    font-size: 29px;
+    margin-left: 45px;
+    font-family: "Goldman", cursive;
+}
+
+/*changement de couleur*/
+
+#tit3{
+    font-family: "Goldman", cursive;
+    font-size: 75px;
+    color:red;
+    text-align: center;  animation-name: example;
+    animation-duration: 15s;
+}
+  
+  @keyframes example {
+    0%   {color: black;}
+    25%  {color: black;}
+    50%  {color: grey;}
+    100% {color:red;}
+  }
+ /******************************/   
+
+
+#tit3 {
+    font-size: 85px;
+    font-family: "Goldman", cursive;
+}
+
+#p1 {
+    margin-top: 220px;
+    margin-left: 25px;
+    font-family: "Goldman", cursive;
+    color:white;
+}
+
+#p2 {
+    font-family: "Goldman", cursive;
+color:white;
+}
+
+#but2 {
+    margin-top: 25px;
+    margin-right: 25px;
+    border-radius: 8px;
+    border-color: red;
+    font-size: 18px;
+    font-family: "Goldman", cursive;
+    padding: 8px 8px 10px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+
+}
+#a1 {
+    font-family: "Goldman", cursive;
+    font-size: 22px;
+  }
+
+#img6 {
+    border-radius:10px;
+    height:180px;
+}
+
+#span1{
+    color:white;
+    margin-top: 180px;
+    font-family: "Goldman", cursive;
+}
+
+h3 { 
+    color:red;
+    font-family: "Goldman", cursive;
+}
