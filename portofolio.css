@@ -3,9 +3,13 @@
   justify-content: space-between;
 }
 
-#a1 {
+#a1 { 
+  color: red;
   font-family: "Goldman", cursive;
   font-size: 22px;
+}
+#a1:hover{
+  color: black;
 }
 #container1 {
   display: flex;
@@ -46,22 +50,55 @@
   display: flex;
   justify-content: center;
 }
-
+/*titre animation*/
 #tit1 {
   font-size: 29px;
   font-family: "Goldman", cursive;
   margin-left: 25px;
+  position: relative;
+  animation-name: tit1;
+  animation-duration: 6s;
+ 
 }
-
+@keyframes tit1 {
+  0%   {color:black; left:10px; top:0px;}
+  25%  {color:grey; left:10px; top:0px;}
+  50%  {color:red; left:45px; top:0px;}
+  75%  {color:grey; left:45px; top:0px;}
+  100% {color:black; left:0px; top:0px;}
+}
+/*************************************************************/
 #tit2 {
   font-size: 29px;
-  margin-left: 45px;
+  margin-left: 105px;
   font-family: "Goldman", cursive;
+  position: relative;
+  animation-name: tit2;
+  animation-duration: 6s;
+
 }
+@keyframes tit2 {
+  0%   {color:black; right:10px; top:0px;}
+  25%  {color:grey;right :10px; top:0px;}
+  50%  {color:red;right :55px; top:0px;}
+  75%  {color:grey; right:55px; top:0px;}
+  100% {color:black; right:0px; top:0px;}
+}
+/************************************************************/
 #tit3 {
   font-size: 85px;
   font-family: "Goldman", cursive;
+  animation-name: tit3;
+  animation-duration: 6s;
 }
+@keyframes tit3 {
+  0%   {color:black; right:10px; top:0px;}
+  25%  {color:grey;right :10px; top:0px;}
+  50%  {color:red;right :55px; top:0px;}
+  75%  {color:rgb(165, 165, 165); right:55px; top:0px;}
+  100% {color:grey; right:0px; top:0px;}
+}
+
 #tit4 {
   font-size: 45px;
   font-family: "Goldman", cursive;
@@ -141,13 +178,42 @@
   background-color: black;
   cursor: pointer;
 }
-#but3 {
-  color: black;
+#but2:hover{
+  background-color: red;
+  border-color: black;
+  color:white;
+}
+#but4{ margin-top: 25px;
+  margin-right: 25px;
+  border-radius: 8px;
+  border-color: red;
+  font-size: 18px;
+  font-family: "Goldman", cursive;
+  padding: 8px 8px 10px 10px;
+  color: white;
+  font-size: 18px;
+
+  background-color: black;
+  cursor: pointer;
+
+}
+#but3 {  color: black;
   border-color: red;
   border-radius: 10px;
   font-size: 18px;
   font-family: "Goldman", cursive;
   margin-left: 15px;
+ 
+}
+#but4{
+  color: black;
+  border-color: red;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family: "Goldman", cursive;
+  padding: 8px 8px 10px 10px;
+  color: white;
+  font-size: 18px;
 }
 #inp1 {
   height: 25px;
@@ -254,6 +320,5 @@ li {
 hr {
   margin-top: 95px;
 }
-
 
   
